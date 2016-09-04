@@ -27,68 +27,65 @@ tags: ["ES6", "javascript"]
 ## Promise特性在代码中的体现
 让我们来实现一个小小的Promise实例：    
 ```js
- var promise = new Promise(function(resolve,reject) {
-    console.log("promise");
- });
- ```
- 这里我新建一个Promise对象，里面传进的参数就是我第一步首先要执行的那个最外层函数的内容，resolve参数表示执行成功的情况下传入的嵌套函数1号，对应Resolved状态，reject表示执行失败的情况下传入的嵌套函数2号，对应Rejected状态。当然，我现在啥也没传，所以这两个形参暂时是个摆设。让我们来看一下运行的效果:    
- ![promise1](http://7xl4oh.com1.z0.glb.clouddn.com/promise1.png)    
- 看，我们仅仅是new了一个实例出来，它居然顺便直接把我们传进去的函数内容给执行了！从这里我们可以看出，当我们创建Promise实例时，传入的函数内容是可以立即执行的，此时因为没有执行resolve函数和reject函数，我们的Promise对象状态就是Pending.
- 那这个构造函数可以把我们的函数内容执行到什么程度呢？先看下面一段代码:    
- ```js
- var promise = new Promise(function(resolve,reject) {
-    console.log("promise");
-    resolve();
-    console.log("没有执行resolve");
- });
+var promise = new Promise(function(resolve,reject) {
+   console.log("promise");
+});
+```
+这里我新建一个Promise对象，里面传进的参数就是我第一步首先要执行的那个最外层函数的内容，我现在没让resolve和reject干活，所以这两个函数暂时是个摆设。让我们来看一下运行的效果:    
+![promise1](http://7xl4oh.com1.z0.glb.clouddn.com/promise1.png)    
+看，我们仅仅是new了一个实例出来，它居然顺便直接把我们传进去的函数内容给执行了！从这里我们可以看出，当我们创建Promise实例时，传入的函数内容是可以立即执行的.     
+我们让resolve登场:    
+```js
+var promise = new Promise(function(resolve,reject) {
+   console.log("promise");
+   resolve();
+   console.log("执行到啦最后一句");
+});
 ```
 执行结果:    
 ![promise2](http://7xl4oh.com1.z0.glb.clouddn.com/promise2.png)    
-神奇的事情出现了，我们调用了一个根本不存在的函数，正常情况下，应该是要报错的，但是并没有，反而执行完了除不存在函数之外的所有代码。这是因为，当我们调用Promise对象的构造函数时，它会把未定义函数的执行代码孤立出来，跳过它们，然后执行别的代码。那么如何执行resolve函数和reject函数呢？这时候就需要请出它的then方法了：    
+resolve和reject。它们是两个函数，由JavaScript引擎提供，不用自己部署。resolve在这里仿佛是啥也没干？？？别急，要想知道resolve干了啥,这时候就需要请出Promise对象的then方法了：    
 ```js
- var promise = new Promise(function(resolve,reject) {
-    console.log("promise");
-    var value = "resolve";
-    if(value=="resolve"){
-        resolve(value);
-    } else {
-        reject(value);
-    }
-    console.log("我还会输出哦");
- });
+var promise = new Promise(function(resolve,reject) {
+  console.log("promise");
+  var value = "resolve";
+  if(value=="resolve"){
+    resolve(value);
+  } else {
+    reject(value);
+  }
+  console.log("执行到啦最后一句!");
+});
 promise.then(function(word) {
-    console.log(word);
- },function(word) {
-    console.log(word);
- });
- ```
- 在上面的then方法中，我们传入了resolve和reject两个函数的定义,于是Promise对象就把对应的resolve函数的执行结果执行出来了:    
- ![promise4](http://7xl4oh.com1.z0.glb.clouddn.com/promise4.png)    
-这个过程应该差不多是这样的:构造函数试图跑完了传入函数内容的所有代码，并由此确定调用then时执行第一个函数还是第二个函数。当然如果构造函数跑到一半出错了，那就不跑了，接下来它会调用then中的reject对应的那个函数（第二个）。then方法会首先对resolve和reject进行定义,执行上一步所确定那个函数，于是大功告成，皆大欢喜～～     
- 现在我们更进一步，研究一下resolve函数和reject函数的关系。     
- 上面那段代码中，我们的if语句人为控制了resolve函数和reject函数的执行，使它们只能执行一个。那如果我这样写呢:    
- ```js
+  console.log(word);
+},function(word) {
+  console.log(word);
+});
+```
+在上面的then方法中，传入了两个回调函数，如果Promise构造函数传入的回调函数中，resolve被行了，那么此时这个promise对象的状态就是resolved,这个resolved状态，会促使then方法在执的时候执行第一个函数，reject同理。resolve和reject都是可以传参数进去的，这个参数会被传出去，作为then中定义的函数的实参.
+![promise4](http://7xl4oh.com1.z0.glb.clouddn.com/promise4.png)    
+整个过程应该差不多是这样的:构造函数跑完了传入函数内容的所有代码，并由此确定当前对象的状态.如果构造函数跑到一半出错了，那就不跑了，同时对象状态就变成了rejected,接下来它会调用then中的rejected状态对应的那个函数（第二个）。如果执行很顺利，执行到了resolve函数，那么就转变为resolved状态。
+现在我们更进一步，研究一下resolve函数和reject函数的关系。     
+上面那段代码中，我们的if语句人为控制了resolve函数和reject函数的执行，使它们只能执行一个.那如果我这样写呢:    
+```js
 var promise = new Promise(function(resolve,reject) {
   console.log("promise");
   var result = "result";
   resolve(result);
   reject(result);
-  });
+});
 promise.then(function(result) {
-    console.log(result+":resolve");
- },function(word) {
-    console.log(result+":reject");
- });
- ```
- 在这段代码里，我们很强势地告诉Promise对象，你既要给我执行出个resolve,也要给我执行出个reject！    
- 那么Promise对象是怎么想的呢：    
- ![promise5](http://7xl4oh.com1.z0.glb.clouddn.com/promise5.png)    
- 它说，你想多了，我只能执行一个，我就不干了。    
- 这段代码用事实说话，告诉我们，状态只要改变一次，你就别想让它改变第二次了，那么这个特性背后隐藏着什么原因呢？    
- 这要从Promise中then方法的返回对象说起了:    
- (其实也已经说完了，你想呀，既然then是有返回对象的，参数一和参数二它只能执行一个，因此resolve和reject状态也只能保留一个呀,不过为了把Promise对象的小细节搞清楚，还是写下去吧啊哈哈哈).
- 我们在上面一段代码的后半段改成这样，输出then方法的返回对象p:     
- ```js
+  console.log(result+":resolve");
+},function(word) {
+  console.log(result+":reject");
+});
+```
+在这段代码里，我们很强势地告诉Promise对象，你既要给我执行出个resolve,也要给我执行出个reect！    
+那么Promise对象是怎么想的呢：    
+![promise5](http://7xl4oh.com1.z0.glb.clouddn.com/promise5.png)    
+它说，你想多了，我只能改变一次状态，我就不干了。    
+我们在上面一段代码的后半段改成这样，输出then方法的返回对象p:     
+```js
 var p = promise.then(function(result) {
     console.log(result+":resolve");
 },function(word) {
@@ -120,8 +117,8 @@ var p = promise.then(function(result) {
 ```
 输出:    
 ![promise8](http://7xl4oh.com1.z0.glb.clouddn.com/promise8.png)    
-机智的我们发现，返回的都是Promise对象，区别在于Promise对象的描述内容，也就是valueOf()的返回值,如果状态为Pending，返回为Pending,如果是resolve或者reject，那么根据resolve或者reject的return值进行返回。(如果resolve或者reject返回的也是一个Promise对象，那么里面的描述还是undefined~~~,因为undefined是一个非pending状态的Promise对象的valueOf()返回值).
-综上所述，改变状态后，Promise对象就立刻return了，谁还给你往下走啊！（冷漠脸）    
+机智的我们发现，返回的都是Promise对象，区别在于Promise对象的描述内容，也就是valueOf()的返回值,如果状态为Pending，返回为Pending,如果是resolve或者reject，那么根据resolve或者reject的return值进行返回。(如果resolve或者reject返回的也是一个Promise对象，那么里面的描述还是undefined~~~,因为undefined是一个非pending状态的Promise对象的默认valueOf()返回值).
+综上所述，改变状态后，Promise对象是绝对不会给你改变第二次的！（冷漠脸）    
 
 “返回值都是Promise对象“这一点，使得Promise对象具有链式调用的优良特性:  
 ```js
