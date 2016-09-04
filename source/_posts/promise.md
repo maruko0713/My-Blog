@@ -64,7 +64,7 @@ promise.then(function(word) {
  ```
  在上面的then方法中，我们传入了resolve和reject两个函数的定义,于是Promise对象就把对应的resolve函数的执行结果执行出来了:    
  ![promise4](http://7xl4oh.com1.z0.glb.clouddn.com/promise4.png)    
- 由此我们可以推断这个过程中发生的事情:构造函数试图跑完了传入函数内容的所有代码，当跑到调用未定义函数的地方,如果未定义函数是非reject和resolve的函数，则报错，不再往下执行，并且在then方法调用时触发reject函数。如果未定义函数是reject或者resolve，则对应设定执行then方法时是调用第一个函数还是调用第二个函数。then方法会首先对resolve和reject进行定义,执行上一步所确定那个函数，于是大功告成，皆大欢喜～～     
+这个过程应该差不多是这样的:构造函数试图跑完了传入函数内容的所有代码，并由此确定调用then时执行第一个函数还是第二个函数。当然如果构造函数跑到一半出错了，那就不跑了，接下来它会调用then中的reject对应的那个函数（第二个）。then方法会首先对resolve和reject进行定义,执行上一步所确定那个函数，于是大功告成，皆大欢喜～～     
  现在我们更进一步，研究一下resolve函数和reject函数的关系。     
  上面那段代码中，我们的if语句人为控制了resolve函数和reject函数的执行，使它们只能执行一个。那如果我这样写呢:    
  ```js
