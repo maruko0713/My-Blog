@@ -3,7 +3,10 @@ title: body和html到底有多高&&浏览器的背景色问题
 date: 2016-08-24
 tag: "css"
 ---
+## 前言:
 在此之前我一直以为在浏览器里html默认和浏览器窗口等高，而body默认和html等高，现在想想自己为什么会这么想，主要是因为这个:    
+
+## body和html的高度测试代码
 ```css
 body{
     background:blue;
@@ -52,7 +55,8 @@ body {
 ![css5](http://7xl4oh.com1.z0.glb.clouddn.com/test_5.jpg)    
     
 魔性的事情出现了，html原来也是没有高度的hhhhh。    
-    
+
+## 总结
 不过话说回来，这不刚好和我们宽度默认继承父级和浏览器窗口等宽，而高度默认不继承为0相吻合吗？所以html和body标签默认高度为0这点，是毋庸置疑的。    
 那么问题来了，body和html并没有高度，那么满屏的黄色和蓝色是怎么显示出来的？    
     
