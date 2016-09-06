@@ -28,8 +28,8 @@ function GoodStudent(props) {
     this.study = "good";
 }
 ```
-这样，如果我们去new一个GoodStudent的实例出来的话，它是不能引用Student.prototype对象的，为啥呢，因为我们在确定一个对象的\_\_proto\_\_属性（即它的原型）时，我们只认new字，这里我们既然是用GoodStudent来new的，那么我们的实例就是GoodStudent的实例，GoodStudent的prototype是谁，这里我们没定义，那就是一个仅有constructor属性的Object对象.再往上找，Object对象的\_\_proto\_\_属性是谁，是Object构造函数的prototype属性，再往上找,Object的prototype属性的\_\_proto\_\_就是null了，看到没，这里根本就没有Student的戏份。    
-于是我们知道，我们之所以只能实现一个从自定义构造函数向Object构造函数的上溯，是因为我们的自定义构造函数的GoodStudent的prototype的*默认值*就是一个空的Object的对象，它只能上溯去找Object！那么这就简单啦，我们把它的prototype改成别的对象不就行了么！    
+这样，如果我们去new一个GoodStudent的实例出来的话，它是不能引用Student.prototype对象的，为啥呢，因为我们在确定一个对象的\_\_proto\_\_属性（即它的原型）时，其实是找的它构造函数的prototype属性里的constructor属性，这里我们既然是用GoodStudent来new的，那么我们的实例就是GoodStudent的实例，GoodStudent的prototype是谁，这里我们没定义，那就是一个仅有constructor属性的Object对象.再往上找，Object对象的\_\_proto\_\_属性是谁，是Object构造函数的prototype属性，再往上找,Object的prototype属性的\_\_proto\_\_就是null了，看到没，这里根本就没有Student的戏份。    
+于是我们知道，我们之所以只能实现一个从自定义构造函数向Object构造函数的上溯，是因为我们的自定义构造函数的GoodStudent的prototype的*默认值*就是一个只有constructor的Object的对象，它只能上溯去找Object！那么这就简单啦，我们把它的prototype改成别的对象不就行了么！    
 
 ## 道格拉斯的原型链加长法
 道格拉斯，就是发明JSON的那个道格拉斯。废话不多说，我们来改良上面的代码:    
@@ -44,7 +44,10 @@ function GoodStudent(props) {
 function F() {
 }
 
-// 把F的原型指向Student.prototype:
+/*
+  注意这里，当我们把Student原型赋给F的原型对象时，F.prototype.constructor返回的就是
+  Student了，于是F创建出来的实例都将被认为是Student的实例.
+*/
 F.prototype = Student.prototype;
 
 // 把GoodStudent的原型指向一个新的F对象，F对象的原型正好指向Student.prototype:
@@ -76,4 +79,4 @@ console.log(xiaoming instanceof Student); // true
 成功了!
 
 ## 总结
-所有的自定义构造函数，它都有一个自定义的prototype属性，这个属性指向一个Object对象，如果我们想要延长原型链，在当前构造函数和Object构造函数之间增加一个类的继承，我们就需要去改造当前构造函数的prototype属性，使它指向一个可以指向“别处”（即它的“父类”）的对象，以此来实现一个加长版的原型链^_^_
+所有的自定义构造函数在创建之初，它都有一个默认的prototype属性，这个属性指向一个Object对象，如果我们想要延长原型链，在当前构造函数和Object构造函数之间增加一个类的继承，我们就需要去改造当前构造函数的prototype属性，使它指向一个可以指向“别处”（即它的“父类”）的对象，以此来实现一个加长版的原型链^_^_
