@@ -45,9 +45,9 @@ function F() {
 }
 
 /*
-  注意这里，当我们把Student原型赋给F的原型对象时，F.prototype.constructor返回的就是
-  Student了，于是F创建出来的实例都将被认为是Student的实例.
-*/
+ *注意这里，当我们把Student原型赋给F的原型对象时，F.prototype.constructor返回的就是
+ *Student了，于是F创建出来的实例都将被认为是Student的实例.
+ */
 F.prototype = Student.prototype;
 
 // 把GoodStudent的原型指向一个新的F对象，F对象的原型正好指向Student.prototype:
