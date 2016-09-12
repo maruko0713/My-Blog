@@ -98,7 +98,7 @@ font-size:150%;
 <picture>
     <source srcset="img/ad001-l.png" media="(min-width:50em)">
     <source srcset="img/ad001-m.png" media="(max-width:50em)">
-    <img src="img/ad001.png" alt="年度报告">
+    <img srcset="img/ad001.png" alt="年度报告">
 </picture>
 ```
 picture标签中，我们可以提供各种各样的source标签来设定不同宽度下的资源的加载。上面这段代码的意思是说，当宽度大于50em的时候，就加载ad001-l图片，当宽度小于50em时，就加载ad001-m图片。下面为啥还有个img标签，这个必须写，它是图片的初始值，source里面的相当于是可选项。如果没有img只有source的话，会什么也显示不出来.
