@@ -16,7 +16,7 @@ tags: ["响应式"]
 ```html
 <meta name="viewport" content="width=device-width,initial-scale=1" />   
 ```
-这行代码是对视口的宽度做一个设定，这个视口指的是布局视口(layout viewport)，它指的是你网页布局的实际宽度，这个宽度要和设备宽度(device-width)贴合，随着屏幕的变化而变化,initial-scale=1是说这个页面的初始化状态是原有大小（因为没有设置不允许用户缩放，后期用户可以缩放这个页面）。    
+这行代码是对视口的宽度做一个设定，这个视口指的是布局视口(layout viewport)，其实就是你页面本身的宽度，这个宽度要和设备宽度(device-width)贴合，随着屏幕的变化而变化,initial-scale=1是说这个页面的初始化状态是原有大小（因为没有设置不允许用户缩放，后期用户可以缩放这个页面）。    
 当然，可爱的IE6,7,8是不支持这玩意儿的:  
 ```html   
 <!--[if lt IE 9]>
