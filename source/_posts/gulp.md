@@ -22,19 +22,19 @@ npm install gulp --g
 ```js
 var gulp = require("gulp"); //它是大boss
 var rev = require("gulp-rev"); // 插件 用于在更新文件内容后更新文件名
-var revReplace = require("gulp-rev-replace"); // 插件
-用于在文件名更新后修改html文件中对应的文件名
-var useref = require("gulp-useref"); // 插件
-用于分析html文件中带有注释的css文件和js文件
+// 插件(用于在目录下的文件名更新后更新html文件中的文件名)
+var revReplace = require("gulp-rev-replace"); 
+// 插件(用于分析html文件中带有注释的css文件和js文件)
+var useref = require("gulp-useref"); 
 var filter = require("gulp-filter");// 插件 用于筛选出已标记的css文件和js文件
 var uglify = require("gulp-uglify"); //压缩js文件
 var csso = require("gulp-csso"); //压缩css文件
 gulp.task("default", function() {
+    //filter操作可以筛选出相应的文件 restore参数表示该文件可以被返回到原有目录下
     var jsFilter = filter("**/*.js",{restore:true});
-//filter操作可以筛选出相应的文件 restore参数表示该文件可以被返回到原有目录下
     var cssFilter = filter("**/*.css", {restore:true}); 
+    //感叹号代表排除 filter内第一个参数可以为字符串也可以为数组
     var indexHtmlFilter = filter(["**/*","!**/index.html"], {restore:true});
-//感叹号代表排除 filter内第一个参数可以为字符串也可以为数组
     return gulp.src("src/index.html") //找到要处理的文件
         .pipe(useref()) //分析文件中带有注释标志的地方
         .pipe(jsFilter) //筛选出标记的js文件 丢进文件流中
