@@ -30,7 +30,7 @@ var filter = require("gulp-filter");// 插件 用于筛选出已标记的css文�
 var uglify = require("gulp-uglify"); //压缩js文件
 var csso = require("gulp-csso"); //压缩css文件
 gulp.task("default", function() {
-    //filter操作可以筛选出相应的文件 restore参数表示该文件可以被返回到原有目录下
+    //filter操作可以筛选出相应的文件 restore参数表示该文件可以被返回到dist目录下
     var jsFilter = filter("**/*.js",{restore:true});
     var cssFilter = filter("**/*.css", {restore:true}); 
     //感叹号代表排除 filter内第一个参数可以为字符串也可以为数组
