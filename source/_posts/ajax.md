@@ -1,5 +1,5 @@
 ---
-title: Ajax全接触：原生js中的ajax和jQuery中的js
+title: Ajax全接触：原生js中的ajax和jQuery中的ajax
 date: 2016-09-25
 tags: ["jQuery","ajax","javascript"]
 ---
