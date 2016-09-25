@@ -63,7 +63,7 @@ function ajax(url,success,fail) {
 ### 最简单的load方法
 
 ```js
-$(选择器).load(“url地址”,requestData);
+$(选择器).load("url地址",requestData);
 ```
 这个方法把url地址返回的响应内容全部加载进选择器对应的dom节点中，简单粗暴，如果url的返回值恰好是html，那皆大欢喜，然而如果返回个json或者xml啥的，恐怕用户要懵比一会儿了。    
 注意第二个参数可选，没有第二个参数时默认是get请求，有第二个参数时自动变成post请求.
