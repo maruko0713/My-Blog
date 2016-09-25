@@ -11,6 +11,7 @@ Ajax(Asynchronous Javascript and XML 异步javascript和xml),这个概念是2005
   
 ## Ajax在原生javascript中的实现    
 什么都不如直接写代码，让我们用原生js来封装一个简陋版的ajax函数(get方法)：    
+
 ```js
 function ajax(url,success,fail) {
     var oAjax = null;
@@ -19,7 +20,7 @@ function ajax(url,success,fail) {
     }   else {
         oAjax = new ActiveXObject("Microsoft.XMLHTTP")
     }
-    oAjax.open("get,url,true);
+    oAjax.open("GET",url,true);
     oAjax.send();
     oAjax.onstatechange = function() {
         if(oAjax.readyState == 4) {
@@ -34,6 +35,7 @@ function ajax(url,success,fail) {
     }
 }
 ```
+
 好的,这是我们调用ajax(url地址，请求类型，成功回调，失败回调)就可以搞定一个ajax请求啦！    
 下面，让我们仔细研究一下原生ajax api中的猫腻:     
 
