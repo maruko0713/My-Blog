@@ -75,8 +75,13 @@ $.getJSON("json文件地址",function(data) {
 ```
 
 这个方法也不难，第一个参数是json文件地址，第二个是返回成功的回调函数.    
-注意getJSON对jsonp的实现，比如我的jsonp请求地址是http://www.xixi.com/jsonp.php,服务器端定义了回调函数名应该储存在url的callback参数里，那么我这么写:    
-$.getJSON("http://www.xixi.com/jsonp.php?callback=?")就可以实现一个jsonp请求，而不会报跨域的错误，回调函数里的data就是jsonp加载进来的函数调用代码段中的实参。    
+注意getJSON对jsonp的实现，比如我的jsonp请求地址是 "http://www.xixi.com/jsonp.php" ,服务器端定义了回调函数名应该储存在url的callback参数里，那么我这么写:    
+
+```js    
+$.getJSON("http://www.xixi.com/jsonp.php?callback=?")
+```
+
+就可以实现一个jsonp请求，而不会报跨域的错误，回调函数里的data就是jsonp加载进来的函数调用代码段中的实参。    
     
 ### get方法，post方法  
 
@@ -97,6 +102,7 @@ $.post("url地址",requestData,function(data) {
 
 ### 底层ajax方法
 上面所有方法，都是底层ajax方法的变体。    
+
 ```js
 $.ajax({
     url:url地址,
@@ -114,6 +120,8 @@ $.ajax({
         error是错误类型
     }
 });
+```
+
 这就是全部了吗？当然不，ajax的配置项多如天上繁星，这里只是列举几个必须记死的，其它的如果想要了解，查文档也会上手很快。    
     
 ### 全局ajax方法
