@@ -4,7 +4,7 @@ date: 2016-09-25
 tags: ["jQuery","ajax","javascript"]
 ---
 ## 前言:
-我之前写过一篇针对jsonp的文章[JSONP全接触：JSONP原理，在js与jQuery中的实现](https://maruko0713.github.io/2016/09/06/jsonp/),主要是因为一个阅读器app[reader](https://github.com/maruko0713/Reader)引发了一些思考。今天把ajax知识点做个整合。    
+我之前写过一篇针对jsonp的文章[JSONP全接触：JSONP原理，在js与jQuery中的实现](https://maruko0713.github.io/2016/09/06/jsonp/),主要是因为一个阅读器app [reader](https://github.com/maruko0713/Reader)引发了一些思考。今天把ajax知识点做个整合。    
     
 ## Ajax是什么
 Ajax(Asynchronous Javascript and XML 异步javascript和xml),这个概念是2005年提出的，它把静态网页转换成具有交互性能的web应用。  
