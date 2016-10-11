@@ -54,7 +54,7 @@ var User = mongoose.model("User",userSchema);
 var user = new User({
     username:"xiaowang",
     password:123,
-    email:hehe@qq.com
+    email:"hehe@qq.com"
 });
 // 保存这个用户
 user.save(function(err) {
