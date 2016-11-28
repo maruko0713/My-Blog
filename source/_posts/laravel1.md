@@ -56,7 +56,7 @@ routes这个文件的作用，就是定位，这些路由对应的逻辑，应�
 对应命令行:    
 
 ```
-php artisan make:controller welcome
+php artisan make:controller WelcomeController
 ```
 
 我们写了一个叫做WelcomeController的文件,在Http目录下的Controllers目录里可以找到。    
