@@ -1,5 +1,5 @@
 ---
-title: Laravel笔记4:laravel中的Model的创建和数据库表的基本操作
+title: Laravel笔记5:laravel中的Model的创建和数据库表的基本操作
 date: 2016-11-20
 tag: "laravel"
 ---
@@ -12,7 +12,7 @@ tag: "laravel"
 php artisan make:model Article
 ```
 
-执行完之后，你会在laravel的app目录下发现一个叫做Article.php的文件，这个文件是和你的articles表呼应的，它用来对article表进行操作。    
+执行完之后，你会在laravel的app目录下发现一个叫做Article.php的文件，这个文件是和你的articles表呼应的，它用来对articles表进行操作。    
    
 在laravel的环境下打开一个php解释器：    
 
