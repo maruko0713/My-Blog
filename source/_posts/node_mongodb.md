@@ -2,7 +2,7 @@
 ---
 title: 在node应用中使用mongodb来存储数据
 date: 2016-10-11
-tags: ["nodejs","javascript","数据库"]
+tags: ["Node","数据库"]
 ---
 ## 前言： 
 这两天用node做了一个[在线笔记demo](https://github.com/maruko0713/node-demos/tree/master/louNote),对于笔记信息和session信息的存储都用到了mongodb。     

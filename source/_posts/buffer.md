@@ -2,7 +2,7 @@
 ---
 title: node中的Buffer对象
 date: 2016-09-28
-tags: ["javascript","nodejs"]
+tags: ["Node"]
 ---
 ## 前言:
 这段时间在学习用nodejs做一个微信公众号的后端开发。node真是百闻不如一见，这回见着了，觉得node和浏览器端js差别还是挺明显的（众：你这不废话吗！）。嘿嘿，今天处理一段request数据时，用了一个办法是先把它转成buffer对象，然后再将其重新编码，所以今天就来侃侃Buffer吧！     

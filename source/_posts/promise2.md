@@ -1,7 +1,7 @@
 ---
 title: node碎碎念之Promise之静态方法promisify,resolve和reject
 date: 2016-10-04
-tags: ["nodejs","javascript","ES6"]
+tags: ["Node","ES6"]
 ---
 ## 前言
 之前写过一篇关于Promise的文章，介绍了Promise对象的创建，特性等一些基本的知识点。最近用node进行微信公众号实际开发的时候才发现原来Promise的应用到了node这边真是漫天飞呀，今天先说几个用的多的。    

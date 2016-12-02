@@ -1,7 +1,7 @@
 ---
 title: 用nodejs搭建一个完整的博客系统
 date: 2016-10-22
-tags: ["nodejs","javascript","express"]
+tags: ["Node","express"]
 ---
 ## 前言:    
 接触node一段时间了，最近在利用node做一些[小demo](https://github.com/maruko0713/node-demos)和一个功能相对复杂一些完整一些的[博客系统](https://github.com/maruko0713/node-blog).后者走心一些，实现了增删改查，页面也多一些，这一篇是对重要技术点的一个总结.    
