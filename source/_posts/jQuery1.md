@@ -13,6 +13,7 @@ DOM操作一般分为三个方法面，即DOM Core（核心），HTML－DOM和CS
 DOM Core并不专属于Javascript,任何一种支持DOM的程序设计语言都可以使用它。    
 我们用的比较多的DOM Core主要是getElementById(),getElementsByTagName(),getAttribute()和setAttribute()等方法。    
    
+<!-- more --> 
 ### HTML-DOM
 用于描述HTML的各种属性。    
 比如：    

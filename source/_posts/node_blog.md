@@ -6,6 +6,7 @@ tags: ["Node","express"]
 ## 前言:    
 接触node一段时间了，最近在利用node做一些[小demo](https://github.com/maruko0713/node-demos)和一个功能相对复杂一些完整一些的[博客系统](https://github.com/maruko0713/node-blog).后者走心一些，实现了增删改查，页面也多一些，这一篇是对重要技术点的一个总结.    
     
+<!-- more --> 
 ## 新工具
 在开发的过程中，我们经常需要修改代码进行debug，但是一旦修改了我们就不得不终止node服务器重启后才可以在浏览器里看到修改后的效果，这样很麻烦，因此，我们可以使用一个叫做supervisor的工具~~~~     
 安装supervisor^_^:    

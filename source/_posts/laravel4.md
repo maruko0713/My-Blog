@@ -42,7 +42,7 @@ class CreateUsersTable extends Migration
     }
 }
 ```
-   
+<!-- more --> 
 在命令行里输入:    
 
 ```

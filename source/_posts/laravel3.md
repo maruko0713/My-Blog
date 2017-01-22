@@ -6,6 +6,7 @@ tag: "laravel"
 ## Blade模版引擎
 > Blade 是 Laravel 提供的一个既简单又强大的模板引擎。和其他流行的 PHP 模板引擎不一样，Blade 并不限制你在视图（view）中使用原生 PHP 代码。所有 Blade 视图页面都将被编译成原生 PHP 代码并缓存起来，除非你的模板文件被修改了，否则不会重新编译，这就意味着 Blade 基本上不会给你的应用增加任何额外负担。Blade 视图文件使用 .blade.php 文件扩展名，并且一般被存放在 resources/views 目录。
    
+<!-- more --> 
 ## Blade实现模版的继承
 如果你想重用一个已经存在的blade.php文件(假设它叫做app.blade.php)，那么你这么做:
 用这个命令：    

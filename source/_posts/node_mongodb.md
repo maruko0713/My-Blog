@@ -6,6 +6,7 @@ tags: ["Node","数据库"]
 ---
 ## 前言： 
 这两天用node做了一个[在线笔记demo](https://github.com/maruko0713/node-demos/tree/master/louNote),对于笔记信息和session信息的存储都用到了mongodb。     
+<!-- more --> 
     
 ## 什么是MongoDB 
 MongoDB是时下流行的noSQL数据库之一，MongoDb中有三个非常重要的概念:    

@@ -20,6 +20,8 @@ php artisan make:controller WelcomeController --plain
 
 现在再打开看看，是不是除了一个Controller对象，里面啥也没有，空空如也了？^_^    
 
+<!-- more --> 
+
 ## 向视图传递变量
 视图不是一个写死的文件，它是一个“模版”，所谓模版，就是我们可以往里面动态写入信息，因此就需要向视图传递变量啦。     
 

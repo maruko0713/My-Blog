@@ -12,7 +12,9 @@ tag: "jQuery"
 ### show()方法和hide()方法
 这两个方法是一对好基友。    
 调用hide()方法时，把元素的display属性设置为none。    
-当调用show()方法时，把元素的display属性设置为block或者inline等等非none的值。    
+当调用show()方法时，把元素的display属性设置为block或者inline等等非none的值。  
+
+<!-- more -->   
     
 注意当你不传参数的时候，它们两个都是刷的一下出现，刷的一下就消失，不会有任何的过渡。    
 有的时候我们希望我们的动画是有速度的，这时候我们可以往括号里面传参数：    

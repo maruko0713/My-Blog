@@ -6,6 +6,7 @@ tags: ["css","移动web","javascript"]
 ## 前言
 这次的博客内容来源于我的第一个完整的移动端项目练习[游客意见数据统计](https://github.com/maruko0713/Travel_comment_website)的开发过程总结，集中纪录了几个把我折腾的够呛的坑。在github上的readme里面虽然已经有一份了，但是还是决定把它写成博客，希望能帮更多的人减少踩坑的经历^_^_
 
+<!-- more --> 
 ## 开发笔记
 ### 坑
 先看这段代码:

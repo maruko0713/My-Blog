@@ -10,6 +10,7 @@ tags: ["jQuery","ajax","javascript"]
 Ajax(Asynchronous Javascript and XML 异步javascript和xml),这个概念是2005年提出的，它把静态网页转换成具有交互性能的web应用。  
   
 ## Ajax在原生javascript中的实现    
+<!-- more --> 
 什么都不如直接写代码，让我们用原生js来封装一个简陋版的ajax函数(get方法)：    
 
 ```js

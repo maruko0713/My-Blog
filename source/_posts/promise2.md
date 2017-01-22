@@ -5,6 +5,7 @@ tags: ["Node","ES6"]
 ---
 ## 前言
 之前写过一篇关于Promise的文章，介绍了Promise对象的创建，特性等一些基本的知识点。最近用node进行微信公众号实际开发的时候才发现原来Promise的应用到了node这边真是漫天飞呀，今天先说几个用的多的。    
+<!-- more --> 
     
 ## Promise.resolve和Promise.reject
 先从好啃的写起，抛砖引玉！    

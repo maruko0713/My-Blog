@@ -38,6 +38,7 @@ getType(new Boolean(true)); // "Boolean"
 因此slice方法就截去了object那几个字母，只返回我们想看到的对象。    
     
 ***挖坑***：需要搞清楚Object和Function对象上的toString到底什么区别。    
+<!-- more --> 
 
 ### extensible标签
 extensible标签，表示对象是否可扩展。   
