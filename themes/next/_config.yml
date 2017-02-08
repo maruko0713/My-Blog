@@ -27,9 +27,11 @@ rss:
 menu:
   home: /
   #categories: /categories
-  #about: /about
+  about: /about
+
   archives: /archives
   tags: /tags
+  board: /board
   #commonweal: /404.html
 
 
@@ -47,6 +49,7 @@ menu_icons:
   tags: tags
   archives: archive
   commonweal: heartbeat
+  board: book
 
 
 
@@ -179,7 +182,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: maruko
 
 # Disqus
 #disqus_shortname:
