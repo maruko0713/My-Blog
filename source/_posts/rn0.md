@@ -26,7 +26,7 @@ tags: ["React Native"]
 ### 组件化
 复习！   
 如何在React|RN中创建一个组件？？？？     
-如果是ES6(大势所趋啊所以这个是重点):    
+如果是ES6(大势所趋....这个是重点):    
    
 ```js
 class HelloComponent extends Component {
