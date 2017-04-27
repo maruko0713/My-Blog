@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Maruko0713的实验室
+title: mieruko0713的实验室
 subtitle:
 description: "大三信息汪 喜欢写代码 \n"
-author: Maruko0713
+author: mieruko0713
 language: zh-Hans
 timezone:
 avatar: http://7xl4oh.com1.z0.glb.clouddn.com/IMG_6574.JPG
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://maruko.com
+url: http://mieruko.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,5 +69,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: https://github.com/maruko0713/maruko0713.github.io.git
+  repo: https://github.com/mieruko0713/mieruko0713.github.io.git
   branch: master

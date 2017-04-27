@@ -4,7 +4,7 @@ date: 2017-03-25
 tags: ["React Native"]
 ---
 ## 前言
-RN中有一些提前为我们写好的各种个样的其它组件。它们是:   
+RN中有一些提前为我们写好的各种各样的其它组件。它们是:   
 - TextInput 文本框组件
 - ScrollView 滚动视图组件
 - Touchable触摸交互组件
