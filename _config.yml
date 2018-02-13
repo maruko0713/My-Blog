@@ -5,7 +5,7 @@
 # Site
 title: Mieruko0713的实验室
 subtitle:
-description: "大三信息汪 喜欢写代码 \n"
+description: "大四信息汪 喜欢写代码 \n"
 author: mieruko0713
 language: zh-Hans
 timezone:
@@ -69,5 +69,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: https://github.com/mieruko0713/mieruko0713.github.io.git
+  repo: git@github.com:mieruko0713/mieruko0713.github.io.git
   branch: master
