@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e6b9ca37-890f-4f19-9b62-a88bef238a74" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/network.md" afterPath="$PROJECT_DIR$/source/_posts/network.md" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/new_es601.md" afterPath="$PROJECT_DIR$/source/_posts/new_es601.md" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/rv-setState.md" afterPath="$PROJECT_DIR$/source/_posts/rv-setState.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,9 +22,56 @@
       <file leaf-file-name="network.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/network.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="34">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding>
+                <marker date="1519478774000" expanded="true" signature="227:308" ph="{...}" />
+                <marker date="1519478774000" expanded="true" signature="330:428" ph="{...}" />
+                <marker date="1519478774000" expanded="true" signature="530:885" ph="{...}" />
+                <marker date="1519478774000" expanded="true" signature="583:845" ph="{...}" />
+                <marker date="1519478774000" expanded="true" signature="585:611" ph="//..." />
+                <marker date="1519478774000" expanded="true" signature="648:750" ph="{...}" />
+                <marker date="1519478774000" expanded="true" signature="756:839" ph="{...}" />
+                <marker date="1519478774000" expanded="true" signature="851:883" ph="{...}" />
+                <marker date="1519478774000" expanded="true" signature="1613:1761" ph="{...}" />
+                <marker date="1519478774000" expanded="true" signature="1621:1724" ph="{...}" />
+                <marker date="1519478774000" expanded="true" signature="1734:1759" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rv-setState.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/rv-setState.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+                <folding>
+                  <marker date="1519478660000" expanded="true" signature="1389:1961" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="1429:1602" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="1443:1551" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="1455:1485" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="1496:1545" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="1571:1598" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="1643:1816" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="1711:1741" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="1747:1812" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="1886:1959" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="1922:1954" ph="{&quot;_resolve&quot;: _resolve...}" />
+                  <marker date="1519478660000" expanded="true" signature="2114:2181" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="2141:2179" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="2359:2528" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="2497:2526" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="2534:2629" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="2588:2627" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="2762:3264" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="2819:3262" ph="{...}" />
+                  <marker date="1519478660000" expanded="true" signature="2852:3226" ph="//..." />
+                  <marker date="1519478660000" expanded="true" signature="3270:3330" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -36,12 +86,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_es601.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new_es601.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/new_es601.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <marker date="1519479395000" expanded="true" signature="1546:1597" ph="{...}" />
+                <marker date="1519479395000" expanded="true" signature="1569:1594" ph="{...}" />
+                <marker date="1519479395000" expanded="true" signature="1916:2161" ph="{...}" />
+                <marker date="1519479395000" expanded="true" signature="1950:2159" ph="{...}" />
+                <marker date="1519479395000" expanded="true" signature="2031:2064" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/ajax.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1485068386000" expanded="true" signature="538:1033" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="585:630" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="638:700" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="788:1031" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="824:1025" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="862:922" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="928:1015" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="954:1001" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="2331:2352" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="2719:2733" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="2858:2866" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="2982:3296" ph="{&quot;url&quot;: url地址...}" />
+                  <marker date="1485068386000" expanded="true" signature="3133:3218" ph="{...}" />
+                  <marker date="1485068386000" expanded="true" signature="3256:3294" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newprototype.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/newprototype.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <marker date="1519479409000" expanded="true" signature="202:291" ph="{...}" />
+                <marker date="1519479409000" expanded="true" signature="823:845" ph="{...}" />
+                <marker date="1519479409000" expanded="true" signature="906:979" ph="{&quot;name&quot;: 'A'...}" />
+                <marker date="1519479409000" expanded="true" signature="945:977" ph="{...}" />
+                <marker date="1519479409000" expanded="true" signature="1030:1054" ph="{...}" />
+                <marker date="1519479409000" expanded="true" signature="1101:1138" ph="{...}" />
+                <marker date="1519479409000" expanded="true" signature="1526:1552" ph="{...}" />
+                <marker date="1519479409000" expanded="true" signature="1571:1616" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,7 +157,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/source/_posts/cssnote.md" />
+        <option value="$PROJECT_DIR$/source/_posts/rv-setState.md" />
+        <option value="$PROJECT_DIR$/source/_posts/network.md" />
         <option value="$PROJECT_DIR$/source/_posts/new_es601.md" />
+        <option value="$PROJECT_DIR$/source/_posts/newprototype.md" />
       </list>
     </option>
   </component>
@@ -67,10 +174,10 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="714" />
+    <option name="height" value="701" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -88,6 +195,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,7 +218,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,15 +257,16 @@
       <updated>1518606754411</updated>
       <workItem from="1518606757608" duration="354000" />
       <workItem from="1519303698798" duration="249000" />
-      <workItem from="1519388705905" duration="76000" />
+      <workItem from="1519388705905" duration="1577000" />
+      <workItem from="1519478543192" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="679000" />
+    <option name="totallyTimeSpent" value="2756000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="701" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -194,16 +302,20 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/network.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/network.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
+          <folding>
+            <marker date="1519478774000" expanded="true" signature="227:308" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="330:428" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="530:885" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="583:845" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="585:611" ph="//..." />
+            <marker date="1519478774000" expanded="true" signature="648:750" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="756:839" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="851:883" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="1613:1761" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="1621:1724" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="1734:1759" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -219,7 +331,152 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <folding>
+            <marker date="1519479395000" expanded="true" signature="1546:1597" ph="{...}" />
+            <marker date="1519479395000" expanded="true" signature="1569:1594" ph="{...}" />
+            <marker date="1519479395000" expanded="true" signature="1916:2161" ph="{...}" />
+            <marker date="1519479395000" expanded="true" signature="1950:2159" ph="{...}" />
+            <marker date="1519479395000" expanded="true" signature="2031:2064" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/network.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <marker date="1519478774000" expanded="true" signature="227:308" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="330:428" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="530:885" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="583:845" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="585:611" ph="//..." />
+            <marker date="1519478774000" expanded="true" signature="648:750" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="756:839" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="851:883" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="1613:1761" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="1621:1724" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="1734:1759" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ES01.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/cssnote.md" />
+    <entry file="file://$PROJECT_DIR$/source/_posts/rv-setState.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            <folding>
+              <marker date="1519478660000" expanded="true" signature="1389:1961" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="1429:1602" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="1443:1551" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="1455:1485" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="1496:1545" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="1571:1598" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="1643:1816" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="1711:1741" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="1747:1812" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="1886:1959" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="1922:1954" ph="{&quot;_resolve&quot;: _resolve...}" />
+              <marker date="1519478660000" expanded="true" signature="2114:2181" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="2141:2179" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="2359:2528" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="2497:2526" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="2534:2629" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="2588:2627" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="2762:3264" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="2819:3262" ph="{...}" />
+              <marker date="1519478660000" expanded="true" signature="2852:3226" ph="//..." />
+              <marker date="1519478660000" expanded="true" signature="3270:3330" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ajax.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1485068386000" expanded="true" signature="538:1033" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="585:630" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="638:700" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="788:1031" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="824:1025" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="862:922" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="928:1015" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="954:1001" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="2331:2352" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="2719:2733" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="2858:2866" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="2982:3296" ph="{&quot;url&quot;: url地址...}" />
+              <marker date="1485068386000" expanded="true" signature="3133:3218" ph="{...}" />
+              <marker date="1485068386000" expanded="true" signature="3256:3294" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/network.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <marker date="1519478774000" expanded="true" signature="227:308" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="330:428" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="530:885" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="583:845" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="585:611" ph="//..." />
+            <marker date="1519478774000" expanded="true" signature="648:750" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="756:839" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="851:883" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="1613:1761" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="1621:1724" ph="{...}" />
+            <marker date="1519478774000" expanded="true" signature="1734:1759" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/new_es601.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1519479395000" expanded="true" signature="1546:1597" ph="{...}" />
+            <marker date="1519479395000" expanded="true" signature="1569:1594" ph="{...}" />
+            <marker date="1519479395000" expanded="true" signature="1916:2161" ph="{...}" />
+            <marker date="1519479395000" expanded="true" signature="1950:2159" ph="{...}" />
+            <marker date="1519479395000" expanded="true" signature="2031:2064" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/newprototype.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1519479409000" expanded="true" signature="202:291" ph="{...}" />
+            <marker date="1519479409000" expanded="true" signature="823:845" ph="{...}" />
+            <marker date="1519479409000" expanded="true" signature="906:979" ph="{&quot;name&quot;: 'A'...}" />
+            <marker date="1519479409000" expanded="true" signature="945:977" ph="{...}" />
+            <marker date="1519479409000" expanded="true" signature="1030:1054" ph="{...}" />
+            <marker date="1519479409000" expanded="true" signature="1101:1138" ph="{...}" />
+            <marker date="1519479409000" expanded="true" signature="1526:1552" ph="{...}" />
+            <marker date="1519479409000" expanded="true" signature="1571:1616" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
