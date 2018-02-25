@@ -40,6 +40,8 @@ this的指向是在执行时确定的。
 - 作为普通函数执行
 - call/apply/bind
 
+<!--more-->
+
 ```js
 function Foo(name) {
   this.name = name
