@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6b9ca37-890f-4f19-9b62-a88bef238a74" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/source/_posts/bfc.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/source/_posts/http.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/newprototype.md" afterPath="$PROJECT_DIR$/source/_posts/newprototype.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,60 +78,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_es601.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/new_es601.md">
+      <file leaf-file-name="http.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/http.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding>
-                  <marker date="1519479395000" expanded="true" signature="1546:1597" ph="{...}" />
-                  <marker date="1519479395000" expanded="true" signature="1569:1594" ph="{...}" />
-                  <marker date="1519479395000" expanded="true" signature="1916:2161" ph="{...}" />
-                  <marker date="1519479395000" expanded="true" signature="1950:2159" ph="{...}" />
-                  <marker date="1519479395000" expanded="true" signature="2031:2064" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bfc.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/bfc.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="102">
-                <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-                <folding>
-                  <marker date="1519555068000" expanded="true" signature="849:886" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="929:1045" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="943:1037" ph="{...}" />
-                  <marker date="1519555068000" expanded="true" signature="944:1037" ph="{...}" />
-                  <marker date="1519555068000" expanded="true" signature="1254:1840" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="1261:1638" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="1451:1630" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="1459:1577" ph="{...}" />
-                  <marker date="1519555068000" expanded="true" signature="1589:1620" ph="{...}" />
-                  <marker date="1519555068000" expanded="true" signature="1645:1832" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="1668:1824" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="1692:1717" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="1741:1766" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="1790:1815" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="2018:2490" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="2025:2386" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="2215:2378" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="2227:2317" ph="{...}" />
-                  <marker date="1519555068000" expanded="true" signature="2330:2368" ph="{...}" />
-                  <marker date="1519555068000" expanded="true" signature="2393:2482" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="2416:2474" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="2943:3429" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="2950:3344" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="3140:3336" ph="..." />
-                  <marker date="1519555068000" expanded="true" signature="3152:3245" ph="{...}" />
-                  <marker date="1519555068000" expanded="true" signature="3258:3326" ph="{...}" />
-                  <marker date="1519555068000" expanded="true" signature="3351:3421" ph="..." />
-                </folding>
+              <first_editor relative-caret-position="550">
+                <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -172,9 +124,10 @@
         <option value="$PROJECT_DIR$/source/_posts/cssnote.md" />
         <option value="$PROJECT_DIR$/source/_posts/rv-setState.md" />
         <option value="$PROJECT_DIR$/source/_posts/network.md" />
-        <option value="$PROJECT_DIR$/source/_posts/new_es601.md" />
         <option value="$PROJECT_DIR$/source/_posts/newprototype.md" />
         <option value="$PROJECT_DIR$/source/_posts/bfc.md" />
+        <option value="$PROJECT_DIR$/source/_posts/new_es601.md" />
+        <option value="$PROJECT_DIR$/source/_posts/http.md" />
       </list>
     </option>
   </component>
@@ -272,12 +225,12 @@
       <workItem from="1519303698798" duration="249000" />
       <workItem from="1519388705905" duration="1577000" />
       <workItem from="1519478543192" duration="741000" />
-      <workItem from="1519546529999" duration="3690000" />
+      <workItem from="1519546529999" duration="5965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6611000" />
+    <option name="totallyTimeSpent" value="8886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -374,11 +327,8 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1519479395000" expanded="true" signature="1546:1597" ph="{...}" />
-              <marker date="1519479395000" expanded="true" signature="1569:1594" ph="{...}" />
-              <marker date="1519479395000" expanded="true" signature="1916:2161" ph="{...}" />
-              <marker date="1519479395000" expanded="true" signature="1950:2159" ph="{...}" />
-              <marker date="1519479395000" expanded="true" signature="2031:2064" ph="{...}" />
+              <marker date="1519479395000" expanded="true" signature="4:11" ph="title: 从实际应用的角度认识BFC&#10;d...css&quot;]" />
+              <marker date="1519479395000" expanded="true" signature="2317:2321" ph="h2: #### 什么是BFC" />
             </folding>
           </first_editor>
           <second_editor />
@@ -452,11 +402,8 @@
         <state relative-caret-position="17">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <marker date="1519479395000" expanded="true" signature="1546:1597" ph="{...}" />
-            <marker date="1519479395000" expanded="true" signature="1569:1594" ph="{...}" />
-            <marker date="1519479395000" expanded="true" signature="1916:2161" ph="{...}" />
-            <marker date="1519479395000" expanded="true" signature="1950:2159" ph="{...}" />
-            <marker date="1519479395000" expanded="true" signature="2031:2064" ph="{...}" />
+            <marker date="1519479395000" expanded="true" signature="4:11" ph="title: 从实际应用的角度认识BFC&#10;d...css&quot;]" />
+            <marker date="1519479395000" expanded="true" signature="2317:2321" ph="h2: #### 什么是BFC" />
           </folding>
         </state>
       </provider>
@@ -465,23 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/ES01.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -563,35 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/new_es601.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1519479395000" expanded="true" signature="1546:1597" ph="{...}" />
-              <marker date="1519479395000" expanded="true" signature="1569:1594" ph="{...}" />
-              <marker date="1519479395000" expanded="true" signature="1916:2161" ph="{...}" />
-              <marker date="1519479395000" expanded="true" signature="1950:2159" ph="{...}" />
-              <marker date="1519479395000" expanded="true" signature="2031:2064" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1519479395000" expanded="true" signature="1546:1597" ph="{...}" />
-            <marker date="1519479395000" expanded="true" signature="1569:1594" ph="{...}" />
-            <marker date="1519479395000" expanded="true" signature="1916:2161" ph="{...}" />
-            <marker date="1519479395000" expanded="true" signature="1950:2159" ph="{...}" />
-            <marker date="1519479395000" expanded="true" signature="2031:2064" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/newprototype.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -631,7 +532,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="102">
-            <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <caret line="6" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
             <folding>
               <marker date="1519555068000" expanded="true" signature="849:886" ph="..." />
               <marker date="1519555068000" expanded="true" signature="929:1045" ph="..." />
@@ -661,6 +562,57 @@
               <marker date="1519555068000" expanded="true" signature="3258:3326" ph="{...}" />
               <marker date="1519555068000" expanded="true" signature="3351:3421" ph="..." />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/new_es601.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="6" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <folding>
+              <marker date="1519479395000" expanded="true" signature="4:11" ph="title: 从实际应用的角度认识BFC&#10;d...css&quot;]" />
+              <marker date="1519479395000" expanded="true" signature="2317:2321" ph="h2: #### 什么是BFC" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1519479395000" expanded="true" signature="4:11" ph="title: 从实际应用的角度认识BFC&#10;d...css&quot;]" />
+            <marker date="1519479395000" expanded="true" signature="2317:2321" ph="h2: #### 什么是BFC" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ES01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/http.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="550">
+            <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
