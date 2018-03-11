@@ -13,14 +13,15 @@ tags: ["React"]
 这次当然不能数生命周期了。     
 需要引入一个概念，就是React中有这么一个属性叫isBatchingUpdates，这个属性并不是全局的，但是它是**唯一**的。我自己的理解哈，这个属性就像操作系统里咱们学的那个“锁”一样的。怎么说呢？setState有同步和异步两种更新方式，具体怎么区分，我这里是借助了知乎上[程墨前辈的一篇文章](https://zhuanlan.zhihu.com/p/26069727)来理解的。这篇文章里提到说：
     
-> 如果是由React引发的事件处理（比如通过onClick引发的事件处理），调用setState不会同步更新this.state，除此之外的setState调用会同步执行this.state。所谓“除此之外”，指的是绕过React通过addEventListener直接添加的事件处理函数，还有通过setTimeout/setInterval产生的异步调用。
+> 如果是由React引发的事件处理（比如通过onClick引发的事件处理），在 React 调用事件、渲染根组件时
+调用setState不会同步更新this.state，除此之外的setState调用会同步执行this.state。所谓“除此之外”，指的是绕过React通过addEventListener直接添加的事件处理函数，还有通过setTimeout/setInterval产生的异步调用。
 > 
 
-讲的非常清楚，读完这段足以对同步异步进行区分。然后我想说的是这个同步异步的区分是怎么来的(原文也有介绍，但是把我整蒙了)，我结合这几天看过的文章和代码来说说自己的理解吧：    
+说得不够准确，查实源代码后发现，React是在调用事件**以及**渲染根组件时会触发这个锁的检查和改变。然后我想说的是这个同步异步的区分是怎么来的(原文也有介绍，但是把我整蒙了)，我结合这几天看过的文章和代码来说说自己的理解吧：    
 
 <!-- more --> 
 
-然后说回这个"锁"吧，它默认值是个false。setState是异步的，但是React是同步的。说得清楚点，就是说一个时刻里不能执行两个调用。当React自己去引发事件处理的时候，它首先会把这个isBatchingUpdates设置为true。然后当setState执行的时候，甭管事件是谁引发的，它都会去检查这个isBatchingUpdates这个“锁”。一看，true，好的，我这边的状态等着，一直等到这个调用执行完了，把“锁”给设回false了，状态才开始更新。   
+然后说回这个"锁"吧，它默认值是个false。setState是异步的，但是React是同步的。说得清楚点，就是说一个时刻里不能执行两个调用。在 React 调用事件、渲染根组件时，它首先会把这个isBatchingUpdates设置为true。然后当setState执行的时候，甭管事件是谁引发的，它都会去检查这个isBatchingUpdates这个“锁”。一看，true，好的，我这边的状态等着，一直等到这个调用执行完了，把“锁”给设回false了，状态才开始更新。   
 怎么等呢，如果发现锁是true，你意欲更新这个组件会带着它身上的这些意欲更新的状态（装在pendingQueue里），被推入一个队列里，这个队列叫做“dirtyComponents”。这中间你要是试图对一个组件进行多次setState，这多个setState会被继续推入组件自己身上的pendingQueue里。于是当锁被解开了，轮到该组件进行更新的时候，它能一口气把好几个state合并成一个，然后只更新一次，这样就大大节省了开销呀~~    
     
 
