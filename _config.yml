@@ -17,6 +17,30 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "我要成为魔法师!"
+sidebar-avatar: https://cdn.lxxyx.cn/2018-06-04-041616.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+# Site settings
+SEOTitle: Mieruko0713的实验室
+header-img: https://cdn.lxxyx.cn/2018-06-04-589111528085301_.pic_hd.jpg
+email: wanzifun@gmail.com
+keyword: "咩咩丸,前端,前端博客"
+
+# SNS settings
+# RSS: true
+# weibo_username:     
+# zhihu_username:     
+github_username:    Mieruko0713
+# twitter_username:   Demonbane_x
+# facebook_username:  demonbane.cn
+# linkedin_username:  kaijun-chen-42089354
+
 # Directory
 source_dir: source
 public_dir: public
@@ -48,6 +72,15 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+# Friends
+friends: [
+  {
+      title: "Lxxyx的前端乐园",
+      href: "https://blog.lxxyx.cn/"
+  }
+]
+
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -63,7 +96,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: huxblog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
