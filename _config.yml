@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mieruko0713的实验室
+title: Mieruko的实验室
 subtitle:
 description: "大四信息汪 喜欢写代码 \n"
-author: mieruko0713
+author: mieruko
 language: zh-Hans
 timezone:
 avatar: http://7xl4oh.com1.z0.glb.clouddn.com/IMG_6574.JPG
@@ -27,7 +27,7 @@ featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 # Site settings
-SEOTitle: Mieruko0713的实验室
+SEOTitle: Mieruko的实验室
 header-img: https://cdn.lxxyx.cn/2018-06-04-589111528085301_.pic_hd.jpg
 email: wanzifun@gmail.com
 keyword: "咩咩丸,前端,前端博客"
@@ -73,12 +73,12 @@ category_map:
 tag_map:
 
 # Friends
-friends: [
-  {
-      title: "Lxxyx的前端乐园",
-      href: "https://blog.lxxyx.cn/"
-  }
-]
+#friends: [
+#  {
+#      title: "Lxxyx的前端乐园",
+#      href: "https://blog.lxxyx.cn/"
+#  }
+#]
 
 
 # Date / Time format
